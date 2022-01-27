@@ -1,0 +1,412 @@
+:root{
+    --black_alpha_16: rgba(13,25,43,0.16);
+    --black_alpha_40: rgba(16,23,34,0.40);
+}
+
+*{
+    color: #8b1338;;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #f5f6e8;
+}
+ /*Коммент*/
+
+nav.menuBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    height: 75px;
+    background-color: #8b1338;
+    border-radius: 5px;
+    font-size: 20px;
+    border:solid;
+    border-width: medium, medium, medium, medium;
+    border-color: #8b1338;
+    position: sticky;
+    top: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul.mainMenu{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    text-decoration: none;
+    gap: 1rem;
+    align-items: center;
+
+    
+}
+
+nav.menuBar li {
+    
+    display:inline-block;
+    text-align: center;
+    
+}
+
+nav.menuBar a{
+    display: block;
+    padding: 5px 25px;
+    text-decoration: none;
+    color: #e2c1bd;
+    transition: all 0.3s;
+    font-weight: bold;
+    
+}
+
+nav.menuBar a:hover{
+    color: #8b1338;
+    background: #e2c1bd;
+    border-radius: 7px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.startImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/startImg.jpg);
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #d0e8d5;
+    margin-left: 5px;
+}
+
+div.startText{
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5em;
+}
+
+h1{
+    margin-block-start: 0.10em;
+    margin-block-end: 0em;
+    font-size: 5em;
+}
+
+h2{
+    margin-block-start: 0.25em;
+    align-items: center;
+    font-weight: normal;
+}
+
+div.text_back{
+    border: solid;
+    background-color: #e2c1bd;
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px;
+    border-color: #8b1338;
+    border-width: medium, medium, medium, medium;
+}
+
+.information_block{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.information_1{
+    background-color: #e2c1bd;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border-bottom: solid;
+    border-top: solid;
+    border-color: #8b1338;
+    border-width: medium;
+    height: 58vh;
+    margin-top: 50px;
+}
+
+div.firstImage{
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-bottom: 25px;
+    background-image: url("../img/findYourFriendIMG.jpg");
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.firstInformation{
+    margin-top: 75px;
+    margin-left: 15px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    overflow: clip;
+}
+
+div.firstHeader{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.firstText{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+div.secondInformation{
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    overflow: clip;
+}
+
+div.secondImage{
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-bottom: 25px;
+    background-image: url("../img/communicateWithOthers.jpg");
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.thirdImage{
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    background-image: url("../img/findFriendsForYourPet.jpg");
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.fourthImage{
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    background-image: url("../img/findInformation.jpeg");
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.securityInformation{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.securityHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+div.securityText{
+    margin-top: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+div.securityTextLeft{
+    margin-right: 50px;
+}
+
+div.securityTextRight{
+    margin-left: 50px;
+}
+
+div.information_2{
+    background-color: #e2c1bd;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border-bottom: solid;
+    border-top: solid;
+    border-color: #8b1338;
+    border-width: medium;
+    height: 70vh;
+    margin-bottom: 50px;
+}
+
+.mapInformation{
+    padding-top: 100px;
+}
+
+.mapInformation_1{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.5rem;
+    overflow: clip;
+}
+
+div.mapHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+.mapList li{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+iframe.interMap{
+    margin: 100px;
+}
+
+div.logo{
+    background-image: url("../img/icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    right: 150px;
+    top: 5px;
+    border-radius: 5px;
+}
+
+.name{
+    padding: 5px 25px;
+    text-decoration: none;
+    color: #e2c1bd;
+    position: absolute;
+    right: 10px;
+    top: 20px
+}
+
+.card{
+    width :250px;
+    height: 310px;
+    box-shadow: 0 2px 20px var(--black_alpha_16);
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow .5s;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: #8b1338;
+    border-radius: 50px;
+}
+
+.card:hover{
+    box-shadow: 0 6px 50px var(--black_alpha_40);
+}
+
+.card-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; 
+}
+
+h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+}
+
+.card-button{
+    border: 1px solid #8b1338;
+    border-radius: 5px;
+    color: #8b1338;
+    height: 2rem;
+    width: 80%;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.card-button:hover{
+    background-color: #8b1338;
+    color: #ffffff;
+}
+
+.card img{
+    display: flex;
+    width: 80%;
+    justify-items: center;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    border: solid;
+    border-color: #8b1338;
+}
+
+.card-description{
+    margin-bottom: 10px;  
+}
+
+.copyRightBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 100%;
+    height: 25px;
+    background-color: #f5f6e8;
+    font-size: 20px;
+    position: sticky;
+    bottom: 0;
+}
+
+.order-section{
+    text-align: center;
+    background-color: linear-gradient(#8b1338, #e2c1bd);
+    margin-bottom: 50px;  
+}

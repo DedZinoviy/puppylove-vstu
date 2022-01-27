@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru-ru">
+    <head>
+        <meta charset="UTF-16">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>PuppyLove</title>
+        <link rel ="icon" href = "../img/icon.png" type = "image/x-icon">
+        <link rel = "stylesheet" href = "style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel = "script" href = "script.js">
+    </head>
+    <body>
+            <nav class = "menuBar">
+                <ul class = "mainMenu">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#information_block">О нас </a></li>
+                    <li><a href="#securityInformation">Безопасность </a></li>
+                    <li><a href="#mapInformation">Карта </a></li>
+                    <li><a href="#order-section">Контакты</a></li>
+                    <li><a href="#" onclick="alert('В разработке...'); return false;">Вход</a></li>
+                    
+                </ul>
+                <div class="logo"></div>
+                <div class="name">PuppyLove</div>
+            </nav>
+            <div class = "startImg">
+                <div class="startText">
+                    <div class="text_back">
+                        <h1>PUPPYLOVE</h1>
+                        <h2>Социальная сеть для Вас и ваших питомцев</h2>
+                    </div>
+                </div>
+            </div>
+            <section class = "information_block " id = "information_block">
+                <div class="securityHeader">О нашем сервисе</div>
+                <div class="information_1">
+                    <div class = "firstImage"></div>
+                    <div class= "firstInformation">
+                        <div class = "firstHeader">Найдите самого верного друга</div>
+                        <div class= "firstText">С помощью нашего сервиса Вы можете преобретать породистых животных 
+                            у профессиональных заводчиков или брать питомцев из приютов
+                        </div>
+                    </div>
+                </div>
+                <div class = "information_1">
+                    <div class= "secondInformation">
+                        <div class = "firstHeader">Получите советы по уходу за питомцами</div>
+                        <div class= "firstText">В нашей социальной сети Вы сможете найти людей и сообщества,
+                            которые помогут Вам больше узнать о том, как правильно ухаживать за Вашим любимцем
+                        </div>
+                    </div>
+                    <div class = "secondImage"></div>
+                </div>
+                <div class="information_1">
+                    <div class = "thirdImage"></div>
+                    <div class= "firstInformation">
+                        <div class = "firstHeader">Ищите друзей для Вашего питомца</div>
+                        <div class= "firstText">Находите владельцев домашних животных той же породы, что и у Вас, договаривайтесь о вязке
+                            или устраивайте совместные прогулки 
+                        </div>
+                    </div>
+                </div>
+                <div class = "information_1">
+                    <div class= "secondInformation">
+                        <div class = "firstHeader">Узайте все об интересующем вас животном</div>
+                        <div class= "firstText">Пользователи сервиса могут размещать полную информацию о питомце, начиная от клички, 
+                            заканчивая паспортом и родословной, включая цифровые копии документов
+                        </div>
+                    </div>
+                    <div class = "fourthImage"></div>
+                </div>
+            </section>
+            <section class="securityInformation" id="securityInformation">
+                <div class="securityHeader">Безопасность</div>
+                <div class="securityText">
+                    <div class="securityTextLeft">Все цифровые копии документов домашних питомцев надежно защищаются шифрованием
+                    и предоставляются только надежным пользователям с Вашего согласия. Надежность пользователя определяется его репутацией,
+                    отзывами других пользователей, а также статусом PREMIUM
+                </div>
+                    <div class="securityTextRight">Все сделки совершенные между пользователями на коммерческой основе защищаются на стороне приложения. 
+                        Между пользователями заключается электронный договор, имеющий реальную юридическую ценность. В случае не выполнения пользователя, 
+                        возложенных на него обязательств, на него накладываются санкции, а репутация в сервисе снижается
+                    </div>
+                </div>
+            </section>
+            <section class="mapInformation" id="mapInformation">
+                <div class = "information_2">
+                    <div class= "mapInformation_1">
+                        <div class="mapHeader">Интерактивная карта</div>
+                        <ul class = "mapList">
+                        <li><p1>Отслеживайте положение вашего питомца в реальном времени</p1></li>
+                        <li><p1>Отмечайте свое местоположение и определяйте положение других пользователей</p1></li>
+                        <li><p1>Находите магазины товаров для животных поблизости</p1></li>
+                        <li><p1>Всегда сможете найти ближайшую ветклинику для Вашего любимца</p1></li>
+                        </ul>
+                    </div>
+                    <iframe class = "interMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1316.2572318489008!2d44.52780227094218!3d48.714760598344185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x411acb2c30fd5ee5%3A0x1d029c2e9564348d!2z0L_RgC4g0LjQvNC10L3QuCDQki7QmC4g0JvQtdC90LjQvdCwLCAyOCwg0JLQvtC70LPQvtCz0YDQsNC0LCDQktC-0LvQs9C-0LPRgNCw0LTRgdC60LDRjyDQvtCx0LsuLCA0MDAwMDU!5e0!3m2!1sru!2sru!4v1622304664788!5m2!1sru!2sru" 
+                    width="750" height="500" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </section>
+            <section class = "order-section" id = "order-section">
+                <h3>Контакты</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="../img/sobaken.jpg"  alt="Собакен"> <!--dog-23.png-->
+                        <div class="card-description">Дмитрий Деменков</div>
+                        <button class="card-button" id = "demenkov-btn" onclick="window.location.href = 'https://vk.com/varfolomey2002'">ВКонтакте</button>
+                    </div>
+                    <div class="card">
+                        <img src="../img/hound.jpg" alt="Гончая смерти">
+                        <div class="card-description">Дмитрий Болгов</div>
+                        <button class="card-button" id = "bolgov-btn" onclick="window.location.href = 'https://vk.com/id441345730'">ВКонтакте</button>
+                    </div>
+                    <div class="card">
+                        <img src="../img/pug.jpg" alt="Милый мопсик">
+                        <div class="card-description">Ярослав Маренков</div>
+                        <button class="card-button" onclick="window.location.href = 'https://vk.com/idyaroslav17'">ВКонтакте</button></div>
+                    </div>
+                </div>
+                <h4>Адресс: Россия, 400005, Волгоград, пр. им. Ленина, 28</h4>
+                <h4>Телефон: (8442) 23-00-76</h4>
+                <h4>Email: puppylole_team@list.ru</h4>
+            </section>
+            <div class="copyRightBar">2021-2022 &#169 PuppyLove &#174 </div>
+    </body>
+</html>
