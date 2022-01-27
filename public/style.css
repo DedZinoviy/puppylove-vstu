@@ -80,7 +80,7 @@ div.startImg{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(../img/startImg.jpg);
+    background: url("img/startImg.jpg");
     height: 120vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -147,7 +147,7 @@ div.firstImage{
     margin-top: 25px;
     margin-left: 150px;
     margin-bottom: 25px;
-    background-image: url("../img/findYourFriendIMG.jpg");
+    background-image: url("img/findYourFriendIMG.jpg");
     width: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -199,7 +199,7 @@ div.secondImage{
     margin-top: 25px;
     margin-left: 150px;
     margin-bottom: 25px;
-    background-image: url("../img/communicateWithOthers.jpg");
+    background-image: url("img/communicateWithOthers.jpg");
     width: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -210,7 +210,7 @@ div.thirdImage{
     margin-left: 100px;
     margin-right: 50px;
     margin-bottom: 25px;
-    background-image: url("../img/findFriendsForYourPet.jpg");
+    background-image: url("img/findFriendsForYourPet.jpg");
     width: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -221,7 +221,7 @@ div.fourthImage{
     margin-left: 100px;
     margin-right: 50px;
     margin-bottom: 25px;
-    background-image: url("../img/findInformation.jpeg");
+    background-image: url("img/findInformation.jpeg");
     width: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -311,7 +311,7 @@ iframe.interMap{
 }
 
 div.logo{
-    background-image: url("../img/icon.png");
+    background-image: url("img/icon.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 64px;
